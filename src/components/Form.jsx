@@ -15,9 +15,9 @@ function Form(){
             <textarea rows="5" cols="40"/>
             </label>
             <br/>
-            <Button texto="Prop Enviar" color="green"/>
-            <Button texto="Prop Enviar" color="black"/>
-            <Button texto="Prop Enviar" color="blue"/>
+            <Button cor="Branco"/>
+            <Button  cor="Preto"/>
+            <Button  cor="Azul"/>
         </form>
     )
 }
