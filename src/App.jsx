@@ -16,7 +16,7 @@ function App() {
       <br/>
       <NovaTarefa/>
       <GetAxios/>
-      <PostAxios/>
+      {/* <PostAxios/> */}
     </div>
   )
 }
