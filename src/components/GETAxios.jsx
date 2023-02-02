@@ -4,7 +4,7 @@ import Tarefa from "./Tarefa";
 function GetAxios() {
   const [tarefas, setTarefas]=useState('')
     axios
-    .get('https://servidordenotas-5hrw.onrender.com/notas')
+    .get('https://servidordenotas-kn35.onrender.com/notas')
     .then((response)=>{
       console.log(response.data[0].titulo)
       setTarefas(response.data[0].titulo)

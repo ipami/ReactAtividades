@@ -7,7 +7,7 @@ function PostAxios() {
   }
   function PostarNota() {
     axios
-      .post('https://servidordenotas-5hrw.onrender.com/notas', dado)
+      .post('https://servidordenotas-kn35.onrender.com/notas', dado)
       .then((response) => { console.log(response) })
       .catch((error) => { console.log(error) })
   }
