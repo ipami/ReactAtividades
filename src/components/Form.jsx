@@ -1,5 +1,4 @@
 import Button from "./Button"
-
 function Form(){
     return(
         <form>
@@ -15,9 +14,18 @@ function Form(){
             <textarea rows="5" cols="40"/>
             </label>
             <br/>
+            <br/>
+            <br/>
             <Button cor="Branco"/>
-            <Button  cor="Preto"/>
-            <Button  cor="Azul"/>
+            <Button cor="Preto"/>
+            <Button cor="Azul"/>
+            <Button cor="Verde"/>
+            <Button cor="Rosa"/>
+            <Button cor="Roxo"/>
+            <Button cor="Laranja"/>
+            <Button cor="Cinza"/>
+            <Button cor="Amarelo"/>
+            <Button cor="Vermelho"/>
         </form>
     )
 }
