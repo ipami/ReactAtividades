@@ -5,18 +5,27 @@ import Form from './components/Form'
 import NovaTarefa from './components/NovaTarefa'
 import GetAxios from './components/GetAxios'
 import PostAxios from './components/PostAxios'
+import { useEffect } from 'react'
+import BotaoUseEffect from './components/BotaoUseEffect'
 function App() {
+
+
+
   return (
     <div className="App">
       <div>
         <img src={LogoJS} width="120px" />
       </div>
       <h2>Primeiro Projeto React com Vite</h2>
-      <Form/>
-      <br/>
-      <NovaTarefa/>
-      <GetAxios/>
-      {/* <PostAxios/> */}
+      <Form />
+      <br />
+      <NovaTarefa />
+      {/* <GetAxios /> */}
+
+      <BotaoUseEffect/>
+
+
+
     </div>
   )
 }

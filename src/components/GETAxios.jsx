@@ -1,8 +1,9 @@
 import axios from "axios";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Tarefa from "./Tarefa";
 function GetAxios() {
   const [tarefas, setTarefas] = useState([])
+  useEffect(() =>{
   axios
     .get('https://servidordenotas-kn35.onrender.com/notas')
     .then((response) => {
@@ -10,6 +11,7 @@ function GetAxios() {
       setTarefas(response.data)
     })
     .catch((error) => { console.error(error) })
+  }, [])
   return (
     <div>
 
@@ -18,6 +20,8 @@ function GetAxios() {
       ))}
       
     </div>
+    
   )
+
 }
 export default GetAxios
